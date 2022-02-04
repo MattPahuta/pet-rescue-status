@@ -29,17 +29,10 @@ const baxter = createPet("Baxter", "hamster");
 const cleo = createPet("Cleo", "rat");
 const francine = createPet("Francine", "turtle");
 
-// console.log(sora, clover, baxter, cleo, francine);
-// clover.sleep();
-// baxter.play();
-// console.log(clover, baxter);
-
-// Challenge 2 Steps
 clover.isTired = 8;
 francine.isTired = 9;
 
 const allPets = [sora, clover, baxter, cleo, francine];
-// console.log(allPets)
 
 const showPets = (petArray) => {
   pets.innerHTML = "";
